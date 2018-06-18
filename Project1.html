@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Name Generator</title>
+	</head>
+	<script type="text/javascript">
+	function makeid() {
+	  var text = "";
+	  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+	  for (var i = 0; i < 5; i++)
+	    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+	  console.log(text);
+	  document.getElementById("txtName").value=text;
+	}
+	</script>
+
+	<body>
+		<input type="button" name="Hola" value="Generate" onclick="makeid()">
+		<input type="text" name="Name" id="txtName">
+	</body>
+</html>
