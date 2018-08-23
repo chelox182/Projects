@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+.voodo{
+	background-color: white; 
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 10px
+	font-color:white;
+}
+.block{
+	font-color:green;
+	font-size: 10px;
+}
